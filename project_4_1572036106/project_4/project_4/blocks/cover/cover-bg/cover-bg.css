@@ -1,0 +1,11 @@
+.cover-bg
+{
+    background-color: #2A2C2F;
+    opacity: 0.5;
+    
+
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+}

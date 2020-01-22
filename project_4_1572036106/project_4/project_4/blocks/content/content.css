@@ -1,0 +1,9 @@
+@import url(./__title/content__title.css);
+@import url(./__subtitle/content__subtitle.css);
+.content
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}

@@ -1,0 +1,10 @@
+@import url(./_font/intro__text_font_statistic.css);
+@import url(./_number/intro__text_number.css);
+@import url(./_font/intro__text_font_article.css);
+
+.intro__text
+{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+}

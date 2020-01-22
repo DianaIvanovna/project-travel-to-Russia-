@@ -1,0 +1,51 @@
+.video__duration
+{
+    position: relative;
+    z-index: 2;
+
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+
+    color: #FFFFFF;
+}
+
+.a{
+    
+    text-decoration: none;
+}
+
+@media screen and (max-width:375px)
+{
+    .video__duration
+    {
+        margin-bottom:2.7%;
+        margin-left:5.5%;
+    }
+}
+@media screen and (min-width:375px)  and (max-width:1024px) 
+{
+    .video__duration
+    {
+        margin-bottom:2.3%;
+        margin-left:7%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1280px) 
+{
+    .video__duration
+    {
+        margin-bottom:2.6%;
+        margin-left:6.5%;
+    }
+}
+@media screen and (min-width:1280px) 
+{
+    .video__duration
+    {
+        margin-bottom:12px;
+        margin-left:30px;
+    }
+}

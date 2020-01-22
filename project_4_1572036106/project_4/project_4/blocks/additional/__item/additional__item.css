@@ -1,0 +1,22 @@
+.additional__item
+{
+    width: 284px;
+    height: 330px;
+    position: relative;
+    margin-right: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.additional__item:last-of-type
+{
+    margin-right: 0px;   
+}
+
+.additional__item:hover .additional__item-bg
+{
+    opacity: 0.3;
+}
